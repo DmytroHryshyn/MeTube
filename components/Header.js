@@ -11,7 +11,6 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 function Header({ toggleSidebar }) {
-	const searchParams = useSearchParams();
 	const [InputValue, setInputValue] = useState('');
 	const [notification, setnotification] = useState(2);
 	const router = useRouter();
