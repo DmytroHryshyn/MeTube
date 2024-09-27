@@ -21,7 +21,6 @@ function Header({ toggleSidebar }) {
 	}, []);
 	return (
 		<div className="flex items-center justify-between border-b-2 fixed top-0 left-0 right-0 z-20 bg-white">
-			{/* tailwind css hamburger menu */}
 			<div
 				className="flex cursor-pointer justify-between h-[1.2rem] w-[1.5rem] flex-col ml-2 group md:ml-7"
 				onClick={() => {
